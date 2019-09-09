@@ -1,0 +1,18 @@
+.nav {
+    position: fixed; /*위치 고정 (width와 함께 사용해야한다. : 기존 레이어에서 떼어내서 다른 레이어에 올려야 하니까)*/
+    width: 100%;
+    background-color: #fcfcfc;
+    padding: 20px 50px;
+    left: 0px;
+    bottom: 0px;
+    border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav i {
+    font-size: 20px;
+}
